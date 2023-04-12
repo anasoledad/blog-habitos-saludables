@@ -1,0 +1,16 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex-grow: 1;
+}
+footer{
+    background: #1c6425;
+}
+@media all and (max-width: 991px){
+    .color-list{
+        background: #19875431
+    }
+}
