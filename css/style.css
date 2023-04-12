@@ -10,7 +10,56 @@ footer{
     background: #1c6425;
 }
 @media all and (max-width: 991px){
+    h5{
+        font-size: 20px;
+    }
     .color-list{
         background: #19875431
+    }
+}
+
+@media all and (min-width: 992px){
+   
+}
+
+@media all and (max-width: 575px){
+    /* .imgLogo{
+        width: 100px;
+    } */
+    .imgResponsive{
+        height: 250px;
+        object-fit: cover;
+    
+    }
+    .cardResponsive{
+        height: 250px;
+    }
+}
+
+@media all and (min-width: 576px)and (max-width: 767px){
+    /* .imgLogo{
+        width: 130px;
+    } */
+    .imgResponsive{
+        height: 250px;
+        width: 505px;
+        object-fit: cover;
+    
+    }
+    .cardResponsive{
+        height: 250px;
+    }
+}
+
+@media all and (min-width: 768px){
+    /* .imgLogo{
+        width: 160px;
+    } */
+    .alturaCard{
+        height: 230px;
+        object-fit: cover;
+    }
+    .titulo-card{
+        font-size: 28px;
     }
 }
