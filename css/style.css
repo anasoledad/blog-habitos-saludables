@@ -9,6 +9,9 @@ main{
 footer{
     background: #1c6425;
 }
+.bg-fondo{
+    background: #1c6425;
+ }
 @media all and (max-width: 991px){
     .color-list{
         background: #19875431
