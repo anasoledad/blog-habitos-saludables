@@ -9,6 +9,9 @@ main{
 footer{
     background: #1c6425;
 }
+.bg-main{
+    background: #e0e3e171;
+}
 @media all and (max-width: 991px){
     h5{
         font-size: 20px;
@@ -42,7 +45,7 @@ footer{
     } */
     .imgResponsive{
         height: 250px;
-        width: 505px;
+        
         object-fit: cover;
     
     }
@@ -52,14 +55,20 @@ footer{
 }
 
 @media all and (min-width: 768px){
+
+    .imgResponsive{
+        height: 275px;
+        object-fit: cover;
+    
+    }
     /* .imgLogo{
         width: 160px;
     } */
-    .alturaCard{
+    /* .alturaCard{
         height: 230px;
         object-fit: cover;
     }
     .titulo-card{
         font-size: 28px;
-    }
+    } */
 }

@@ -1,56 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Consejos útiles para facilitar al cuerpo un estado de equilibrio saludable."/>
-    <meta name="author" content="Ana Rocha"/>
-    <meta name="keywords" content=""/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Hábitos Saludables</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Consejos útiles para facilitar al cuerpo un estado de equilibrio saludable." />
+  <meta name="author" content="Ana Rocha" />
+  <meta name="keywords" content="" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Hábitos Saludables</title>
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-white navbar-white pt-3 border-bottom border-secondary-subtle">
-            <div class="container">
-              <a class="navbar-brand pb-2" href="index.html"><img src="img/logoBienestar.png" width="160px" alt="Logo"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-                <div class="collapse navbar-collapse color-list" id="navbarSupportedContent">
-                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item mx-3 d-none d-lg-block">
-                        <a class="nav-link fw-bolder active" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                        <a class="nav-link fw-bolder" href="/pages/sobreNosotros.html">Sobre Nosotros</a>
-                    </li>
-                    <li class="nav-item mx-3">
-                      <form class="d-flex nav-item" role="search">
-                        <input
-                          class="form-control"
-                          type="search"
-                          placeholder="Buscar artículo"
-                          aria-label="Search"
-                          id="searchInput"
-                        />
-                        <button class="btn btn-outline-success ms-1" id="search" type="submit">Buscar</button>
-                      </form>
-                    </li>
-              </div>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-white navbar-white pt-3 border-bottom border-secondary-subtle">
+      <div class="container">
+        <a class="navbar-brand pb-2" href="index.html"><img src="img/logoBienestar.png" width="160px" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse color-list" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item mx-3 d-none d-lg-block">
+              <a class="nav-link fw-bolder active" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link fw-bolder" href="/pages/sobreNosotros.html">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item mx-3">
+              <form class="d-flex nav-item" id="formulario" role="search">
+                <input class="form-control" type="search" placeholder="Buscar artículo" aria-label="Search"
+                  id="searchInput" />
+                <button class="btn btn-outline-success ms-1" id="search" type="submit">Buscar</button>
+              </form>
+            </li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="bg-main">
+
+
+    <section class="container py-4">
+      <div class="row">
+
+        <div class="col-md-6 col-lg-4 mb-3">
+          <a href="/pages/articuloSueño.html" class="text-decoration-none"><div class="card h-100">
+            <img class="card-img-top imgResponsive" src="./img/sueño.jpg" alt="Imagen 1">
+            <div class="card-body">
+              <h4 class="card-title">Los beneficios de dormir bien y cómo lograrlo</h4>
+              <p class="card-text">En este artículo, vamos a hablar sobre los beneficios de dormir bien y proporcionar algunos consejos para ayudarte a mejorar la calidad de tu sueño.</p>
             </div>
-          </nav>
-    </header>
-    <main>
-        <section class="container my-3 pe-0">
-            <article class="mt-4 ms-2">
+          </div></a>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <a href="/pages/articuloEstres.html" class="text-decoration-none"><div class="card h-100">
+            <img class="card-img-top imgResponsive" src="./img/estres.jpg" alt="Imagen 2">
+            <div class="card-body">
+              <h4 class="card-title">Cómo reducir el estrés en tu día a día</h4>
+              <p class="card-text">Aquí te presentamos algunas estrategias efectivas para reducir el estrés</p>
+            </div>
+          </div></a>
+        </div>
+        <div class="col-md-6  col-lg-4 mb-3">
+          <a href="/pages/articuloAgua.html" class="text-decoration-none"><div class="card h-100">
+            <img class="card-img-top imgResponsive" src="./img/agua.jpg" alt="Imagen 3">
+            <div class="card-body">
+              <h4 class="card-title">La importancia de tomar suficiente agua</h4>
+              <p class="card-text">Aquí te contamos por qué es importante tomar suficiente agua y cómo hacerlo divertido.</p>
+            </div>
+          </div></a>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <a href="/pages/articuloMemoria.html" class="text-decoration-none"><div class="card h-100">
+            <img class="card-img-top imgResponsive" src="./img/memoria.jpg" alt="Imagen 4">
+            <div class="card-body">
+              <h4 class="card-title">Cómo mejorar tu concentración y memoria con hábitos sencillos</h4>
+              <p class="card-text">Existen hábitos sencillos que puedes incorporar a tu vida diaria para mejorar tanto tu concentración como tu memoria. En este artículo, exploraremos algunos de ellos.</p>
+            </div>
+          </div></a>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <a href="/pages/articuloDieta.html" class="text-decoration-none"></a><div class="card h-100">
+            <img class="card-img-top imgResponsive" src="./img/dieta.jpg" alt="Imagen 4">
+            <div class="card-body">
+              <h4 class="card-title">Alimentos que debes incluir en tu dieta para tener una vida más saludable</h4>
+              <p class="card-text">A continuación, presentamos los alimentos que debes incluir en tu dieta diaria para tener una vida más saludable.</p>
+            </div>
+          </div></a>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <a href="/pages/articulo.html" class="text-decoration-none"><div class="card h-100">
+            <img class="card-img-top imgResponsive" src="./img/correr.jpg" alt="Imagen 4">
+            <div class="card-body">
+              <h4 class="card-title">Cómo establecer una rutina de ejercicio saludable y mantenerla</h4>
+              <p class="card-text">En este artículo, se presentarán algunos consejos para establecer una rutina de ejercicio saludable y mantenerla a largo plazo.</p>
+            </div>
+          </div></a>
+        </div>
+    
+    </section>
+    <!-- <section class="container my-3 d-flex justify-content-center">
+            <article class="mt-4 ms-4">
               <div class="col-12 row me-0 ">
-                <div class="col-md-8 col-lg-8 p-0 cardResponsive">
+                <div class="col-md-8 col-lg-8 p-0 cardResponsive p-md-3">
                   <a href="./pages/detalleSueño.html">
-                  <div class="card text-bg-white border border-white border-4 h-100 rounded-0 ">
+                  <div class="card text-bg-white h-100 rounded-0">
                     <img src="/img/sueño.jpg" class="card-img h-100 rounded-0 imgResponsive" alt="Mujer durmiendo">
                     <div class="card-img-overlay d-flex align-content-end flex-wrap">
                       <h5 class="card-title text-white articulo titulo-card">Los beneficios de dormir bien y cómo lograrlo</h5>
@@ -60,20 +120,20 @@
                 </a>
                 </div>
                 <div class="col-md-4 col-lg-4 p-0">
-                  <div class="row">
-                    <div class="col-12 cardResponsive">
+                  <div class="row pe-md-3">
+                    <div class="col-12 cardResponsive pt-md-3 pb-md-3">
                       <a href="./pages/detalleEstres.html">
-                      <div class="card text-bg-white border border-white border-4 rounded-0">
-                        <img src="/img/estres.jpg" class="card-img rounded-0 imgResponsive" alt="Hombres estresado">
+                      <div class="card text-bg-white rounded-0">
+                        <img src="/img/estres.jpg" class="card-img rounded-0 imgResponsive" alt="Hombre estresado">
                         <div class="card-img-overlay d-flex align-content-end flex-wrap">
                           <h5 class="card-title text-white articulo">Cómo reducir el estrés en tu día a día</h5>
                         </div>
                       </div>
                     </a>
                     </div>
-                    <div class="col-12 cardResponsive">
+                    <div class="col-12 cardResponsive pb-md-3">
                       <a href="./pages/detalleAgua.html">
-                      <div class="card text-bg-white border border-white border-4 rounded-0">
+                      <div class="card text-bg-white rounded-0">
                         <img src="/img/agua.jpg" class="card-img rounded-0 imgResponsive" alt="Personas tomando agua">
                         <div class="card-img-overlay d-flex align-content-end flex-wrap">
                           <h5 class="card-title text-white articulo">La importancia de tomar suficiente agua </h5>
@@ -84,10 +144,10 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 row me-0">
-                <div class="col-md-6 col-lg-6 p-0 cardResponsive alturaCard">
+              <div class="col-12 row me-0 px-md-3">
+                <div class="col-md-6 col-lg-6 p-0 cardResponsive alturaCard pe-md-3">
                   <a href="./pages/detalleMemoria.html">
-                  <div class="card text-bg-white border border-white border-4 rounded-0">
+                  <div class="card text-bg-white rounded-0">
                     <img src="/img/memoria.jpg" class="card-img rounded-0 imgResponsive alturaCard" alt="Personas jugando al ajedrez">
                     <div class="card-img-overlay d-flex align-content-end flex-wrap">
                       <h5 class="card-title text-white articulo">Cómo mejorar tu concentración y memoria con hábitos sencillos</h5>
@@ -97,7 +157,7 @@
                 </div>
                 <div class="col-md-6 col-lg-6 p-0 cardResponsive">
                   <a href="./pages/detalleDieta.html">
-                  <div class="card text-bg-white border border-white border-4 h-100 rounded-0">
+                  <div class="card text-bg-white h-100 rounded-0">
                     <img src="/img/dieta.jpg" class="card-img rounded-0 imgResponsive alturaCard" alt="Comida saludable">
                     <div class="card-img-overlay d-flex align-content-end flex-wrap">
                       <h5 class="card-title text-white articulo">Alimentos que debes incluir en tu dieta para tener una vida más saludable</h5>
@@ -108,15 +168,23 @@
               </div>  
             </article>      
           </section>
+          <section>
 
-    </main>
-    <footer class="text-light py-2">
-        <section class="container">
-            <a href="index.html"><img src="./img/logoBienestar2.png" alt="Logo de Bienestar" width="160px"></a>
-            <p class="text-center">&copy; Todos los derechos reservados</p>
-        </section>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>    
-    <script src="js/app.js"></script>
+          </section>
+          <section>
+
+          </section> -->
+  </main>
+  <footer class="text-light py-2">
+    <section class="container">
+      <a href="index.html"><img src="./img/logoBienestar2.png" alt="Logo de Bienestar" width="160px"></a>
+      <p class="text-center">&copy; Todos los derechos reservados</p>
+    </section>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
 </body>
+
 </html>
