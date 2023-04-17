@@ -33,10 +33,9 @@
               <a class="nav-link fw-bolder" href="/pages/sobreNosotros.html">Sobre Nosotros</a>
             </li>
             <li class="nav-item mx-3">
-              <form class="d-flex nav-item" id="formulario" role="search">
-                <input class="form-control" type="search" placeholder="Buscar artículo" aria-label="Search"
-                  id="searchInput" />
-                <button class="btn btn-outline-success ms-1" id="search" type="submit">Buscar</button>
+              <form class="d-flex nav-item" id="formulario" >
+                <input class="form-control" placeholder="Buscar artículo" onkeyup="filtrar()" aria-label="Search" id="searchInput" />
+                <!-- <button class="btn btn-outline-success ms-1" id="search" type="submit">Buscar</button> -->
               </form>
             </li>
         </div>
@@ -47,7 +46,7 @@
 
 
     <section class="container py-4">
-      <div class="row">
+      <div class="row" id="cardsContainer">
 
         <div class="col-md-6 col-lg-4 mb-3">
           <a href="/pages/articuloSueño.html" class="text-decoration-none"><div class="card h-100">
@@ -103,7 +102,28 @@
             </div>
           </div></a>
         </div>
-    
+
+
+        
+        <!-- <input type="text" id="search-input" placeholder="Buscar..."> -->
+       <!--  <div id="card-container">
+          <div class="card">
+            <h2 class="card-title">Título 1</h2>
+            <p class="card-description">Descripción 1</p>
+            <span class="card-name">Nombre 1</span>
+          </div>
+          <div class="card">
+            <h2 class="card-title">Título 2</h2>
+            <p class="card-description">Descripción 2</p>
+            <span class="card-name">Nombre 2</span>
+          </div>
+          <div class="card">
+            <h2 class="card-title">Título 3</h2>
+            <p class="card-description">Descripción 3</p>
+            <span class="card-name">Nombre 3</span>
+          </div>
+        </div>
+        <p id="no-results" class="d-none">No se encontraron resultados</p> -->
     </section>
     <!-- <section class="container my-3 d-flex justify-content-center">
             <article class="mt-4 ms-4">
@@ -174,6 +194,7 @@
           <section>
 
           </section> -->
+
   </main>
   <footer class="text-light py-2">
     <section class="container">
