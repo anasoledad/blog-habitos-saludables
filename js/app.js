@@ -49,3 +49,31 @@ searchInput.addEventListener('input', function(event) {
   });
 });
 
+
+
+const formulario = document.getElementById('formulario');
+formulario.addEventListener('submit', agregarComentario);
+
+const inputComentario = document.getElementById('inputComentario');
+const listaDeComentarios = document.getElementById('listaDeComentarios');
+
+function agregarComentario(e) {
+  e.preventDefault();
+
+  const comentario = inputComentario.value;
+
+  if (comentario !== '') {
+
+    const elementoLista = document.createElement('li');
+    elementoLista.classList = 'list-group-item list-group-item-success d-flex justify-content-between pt-2';
+    const textocomentario = document.createTextNode(comentario);
+
+
+    elementoLista.appendChild(textocomentario);
+
+    listaDeComentarios.appendChild(elementoLista);
+
+    inputComentario.value = '';
+
+  }
+};
