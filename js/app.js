@@ -76,4 +76,5 @@ function agregarComentario(e) {
     inputComentario.value = '';
 
   }
-};
+}
+
