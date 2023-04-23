@@ -9,29 +9,30 @@ main{
 footer{
     background: #1c6425;
 }
-.bg-fondo{
+.bgTitulo{
     background: #1c6425;
  }
-.bg-main{
+.bgMain{
     background: #e0e3e171;
 }
+.modal-header {
+    border-bottom:none;
+}
+.imgAutor{
+    width: 22%;
+}
+
+
+#listaComentarios {
+    list-style: none;
+}
+
 @media all and (max-width: 991px){
-    h5{
-        font-size: 20px;
-    }
-    .color-list{
+    .colorLista{
         background: #19875431
     }
 }
-
-@media all and (min-width: 992px){
-   
-}
-
 @media all and (max-width: 575px){
-    /* .imgLogo{
-        width: 100px;
-    } */
     .imgResponsive{
         height: 250px;
         object-fit: cover;
@@ -39,27 +40,23 @@ footer{
     }
     .cardResponsive{
         height: 250px;
+    }
+    .imgAutor{
+        width: 35%;
     }
 }
 
 @media all and (min-width: 576px)and (max-width: 767px){
-    /* .imgLogo{
-        width: 130px;
-    } */
     .imgResponsive{
         height: 250px;
-        
         object-fit: cover;
-    
     }
     .cardResponsive{
         height: 250px;
     }
-
-}
-
-.modal-header {
-    border-bottom:none;
+    .imgAutor{
+        width: 26%;
+    }
 }
 @media all and (min-width: 768px){
 
@@ -72,34 +69,7 @@ footer{
         height: 100%;
         object-fit: cover;
     }
-    /* .imgLogo{
-        width: 160px;
-    } */
-    /* .alturaCard{
-        height: 230px;
-        object-fit: cover;
-    }
-    .titulo-card{
-        font-size: 28px;
-    } */
-}
-.imgAutor{
-    width: 22%;
-}
-@media all and (max-width: 575px){
     .imgAutor{
-        width: 35%;
+        width: 15%;
     }
-}
-@media all and (min-width: 576px)and (max-width: 767px){
-    .imgAutor{
-        width: 30%;
-    }
-}
-
-.imgPerfil{
-    height: 30px;
-}
-#listaComentarios {
-    list-style: none;
 }
