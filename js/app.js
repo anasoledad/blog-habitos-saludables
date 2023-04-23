@@ -1,51 +1,26 @@
-class Articulo{
-  #imagen;
-  #titulo;
-  #descripcion;
-
-  constructor(imagen, titulo, descripcion){
-    this.#imagen = imagen;
-    this.#titulo = titulo;
-    this.#descripcion = descripcion;
-  }
-
-  getImagen() {
-    return this.#imagen;
-  }
-  getTitulo() {
-    return this.#titulo;
-  }
-  getDescripcion() {
-    return this.#descripcion;
-  }
-  setTitulo(titulo) {
-    this.#titulo = titulo;
-}
-setDescripcion(descripcion) {
-    this.#descripcion = descripcion;
-}
-setImagen(imagen) {
-    this.#imagen = imagen;
-}
-}
-
-
-const searchInput = document.getElementById('searchInput');
-
+const buscarInput = document.getElementById('buscarInput');
 const cards = document.querySelectorAll('.card');
+const sinResultados = document.getElementById('sinResultados');
 
-searchInput.addEventListener('input', function(event) {
-  const searchText = event.target.value.toLowerCase();
-  
+buscarInput.addEventListener('input', function(e) {
+  const buscarTexto = e.target.value.toLowerCase();
+
+  let resultado = false;
   cards.forEach(card => {
-    const title = card.querySelector('.card-title').textContent.toLowerCase();
+    const titulo = card.querySelector('.card-title').textContent.toLowerCase();
     const description = card.querySelector('.card-text').textContent.toLowerCase();
-    
-    if (title.includes(searchText) || description.includes(searchText)) {
+
+    if (titulo.includes(buscarTexto) || description.includes(buscarTexto)) {
       card.style.display = '';
+      resultado = true;
     } else {
       card.style.display = 'none';
     }
   });
-});
 
+  if (resultado=== true) {
+    sinResultados.className = 'd-none';
+  } else {
+    sinResultados.className = 'text-center text-secondary fs-2';
+  }
+});
