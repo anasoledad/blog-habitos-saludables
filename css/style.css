@@ -55,14 +55,22 @@ footer{
     .cardResponsive{
         height: 250px;
     }
+
 }
 
+.modal-header {
+    border-bottom:none;
+}
 @media all and (min-width: 768px){
 
     .imgResponsive{
         height: 275px;
         object-fit: cover;
     
+    }
+    .imgModal{
+        height: 100%;
+        object-fit: cover;
     }
     /* .imgLogo{
         width: 160px;
