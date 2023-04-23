@@ -88,3 +88,10 @@ footer{
         width: 30%;
     }
 }
+
+.imgPerfil{
+    height: 30px;
+}
+#listaComentarios {
+    list-style: none;
+}
