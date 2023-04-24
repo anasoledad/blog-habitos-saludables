@@ -1,6 +1,6 @@
 # Bienestar 🍀
 
-![JavaScript](https://i.pinimg.com/564x/21/24/10/21241008589529dfca9e4873f517ef39.jpg)
+![JavaScript](https://habitos-saludables.netlify.app/img/logoBienestar.png)
 
 ## ¡Bienvenido a Bienestar!
 
@@ -46,6 +46,9 @@ Gracias por visitar Bienestar, esperamos que encuentres la información que busc
 ## Links 💻
 Repositorio
 [GitHub](https://github.com/anasoledad/blog-habitos-saludables)
+
+Página
+[Bienestar](https://habitos-saludables.netlify.app)
 
 ## Autor 👩‍💻
 
