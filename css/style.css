@@ -21,7 +21,9 @@ footer{
 .imgAutor{
     width: 22%;
 }
-
+.imgPerfil{
+    height: 30px;
+}
 
 #listaComentarios {
     list-style: none;
